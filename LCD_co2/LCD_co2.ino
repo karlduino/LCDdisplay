@@ -40,19 +40,19 @@ void setup()
 
   int temp = 79;
   sprintf(buffer, "%3d", temp);
-  lcd.setCursor(0,1);
+  lcd.setCursor(1,1);
   lcd.print(buffer);
-  lcd.setCursor(3,1);
-  lcd.print((char)223); // degree symbol
   lcd.setCursor(4,1);
+  lcd.print((char)223); // degree symbol
+  lcd.setCursor(5,1);
   lcd.print("F");
 
   int humidity = 49;
   sprintf(buffer, "%3d", humidity);
-  lcd.setCursor(8,1);
+  lcd.setCursor(7,1);
   lcd.print(buffer);
-  lcd.setCursor(11,1);
-  lcd.print("%");
+  lcd.setCursor(10,1);
+  lcd.print("% hum.");
 
 }
 
