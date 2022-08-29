@@ -6,7 +6,7 @@
 // Instantiation and pins configurations
 // Pin 3 - > DIO
 // Pin 2 - > CLK
-TM1637 tm(3, 2);
+TM1637 tm(2, 3);
 
 void setup()
 {
